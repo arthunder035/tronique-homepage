@@ -1,0 +1,164 @@
+.mainpage{
+    margin: 0px 120px;
+}
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555; 
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+
+
+.blank{
+    background: #DE082D;
+    width: 100%;
+    height: 50px;
+    border-radius: 60px;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.div1{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+.div2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0px;
+}
+.content{
+    width: 50%;
+    font-family: "Actay", sans-serif;
+}
+
+.div2 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.image{
+    width: 50%;
+    /* height: max-content; */
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center ;
+}
+
+.div2 .image{
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+}
+.img1{
+    width: 70%;
+    height: max-content;
+}
+
+.header1-1{
+    background: linear-gradient(89.9deg, #FB5C78 0.16%, #F7D5CC 29.77%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5vw;
+}
+
+.header1-2{
+    margin-top: -20px;
+    color: white;
+    font-size: 3.5vw;
+}
+
+.p-1{
+    font-family: "Regular";
+    font-size: 1.3vw;
+    color: white;
+}
+
+.header2-1{
+    color: #FB5C78;
+    font-size: 2.5vw;
+}
+
+.header2-2{
+    color: white;
+    font-family: "Regular";
+    font-size: 1.5vw;
+    margin-top: -20px;
+}
+
+.p-2{
+    color: white;
+    font-family: "Regular";
+    margin-top: -20px;
+    font-size: 1vw;
+}
+
+.started-button{
+    color: white;
+    padding: 0px 18px;
+    height: 35px;
+    outline: none;
+    border: 0.70px solid white;
+    border-radius: 40px;
+    background: none;
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: padding 0.3s ease;
+
+
+  
+  &:hover {
+    border:1px solid #FB5C78;
+    color: #FB5C78;
+    padding-right: 0;
+  }
+}
+
+.right{
+    display: none ;
+    background-color: #FB5C78;
+    height: 35px;
+    color: white;
+    font-size:20px;
+    padding: 0px 10px;
+    border-radius: 25px;
+    transition: opacity 0.3s ease;
+}
+.started-button:hover .right{
+    display: flex;
+}
+
+.div2 .p-2,
+.div2 .header2-2{
+    text-align: right;
+}

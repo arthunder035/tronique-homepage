@@ -1,0 +1,26 @@
+.navbar{
+    margin: 60px 120px 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wallet-button{
+    color: #DE082D;
+    background-color: white;
+    border: 0.83px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 13px 30px;
+    height: max-content;
+    font-family: "Regular";
+    font-weight: 400;
+    cursor: pointer;
+}
+.wallet-button:hover{
+    border: 1px solid #DE082D;
+    letter-spacing: 1px;   
+    font-weight: 800; 
+    background-color: #fbecee;
+}
+
+
+
