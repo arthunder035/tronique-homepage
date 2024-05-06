@@ -9,10 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tronweb3/tronwallet-adapter-react-ui": "^1.1.8",
-    "@tronweb3/tronwallet-adapters": "^1.2.1",
     "aos": "^2.3.4",
     "next": "14.2.3",
+    "pino-pretty": "^11.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
