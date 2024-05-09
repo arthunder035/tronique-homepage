@@ -41,6 +41,7 @@ const Homepage = () => {
             </p>
           </div>
           <div className="image">
+    
             <Image
               src={img1}
               alt="img1"
@@ -166,13 +167,14 @@ const Homepage = () => {
               Get Started <IoIosArrowRoundForward className="right" />
             </button>
           </div>
-          <div className="image">
+          <div className="image-container">
             <Image
               src={img4}
               alt="img4"
-              className="img1"
+              className="img"
               loading="lazy"
             ></Image>
+            <div className="overlay"></div>
           </div>
         </div>
       </div>

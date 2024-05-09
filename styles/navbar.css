@@ -1,7 +1,7 @@
 .navbar{
     margin: 60px 120px 20px 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 .wallet-button{
@@ -20,6 +20,31 @@
     letter-spacing: 1px;   
     font-weight: 800; 
     background-color: #fbecee;
+}
+
+
+@media screen and (max-width:1155px) {
+    .navbar{
+        margin: 60px 100px 20px 100px;
+    }
+}
+@media screen and (max-width:768px){
+    .navbar{
+        margin: 60px 50px 20px 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .navbar{
+        margin: 60px 60px 20px 60px;
+    }
+    .logo-img{
+        width: 120px;
+    }
+}
+@media screen and (max-width:400px){
+    .navbar{
+        margin: 60px 40px 20px 40px;
+    }
 }
 
 
